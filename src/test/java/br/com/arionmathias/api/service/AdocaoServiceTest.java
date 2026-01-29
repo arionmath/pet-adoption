@@ -5,7 +5,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.ArgumentCaptor;
@@ -57,7 +56,6 @@ public class AdocaoServiceTest {
 	
 	@Captor
 	private ArgumentCaptor<Adocao> argumentCaptor; 
-	
 
 	@Mock 
 	private Pet pet;	
